@@ -1,4 +1,4 @@
-# Swift 中结构体 struct 与类 class 有什么异同？
+# 2020-06-27 Swift 中结构体 struct 与类 class 异同
 
 ## 相同点
 
@@ -24,5 +24,5 @@ Swift 中数组、字典、整型值、布尔值、浮点值等都是结构体�
 
 ### 参考：
 
-1.[Stanford CS193p 2020 Lecture 2](https://www.bilibili.com/video/BV1HK4y1t7KG?p=2)
+1.[Stanford CS193P 2020 Lecture 2](https://www.bilibili.com/video/BV1HK4y1t7KG?p=2)
 
