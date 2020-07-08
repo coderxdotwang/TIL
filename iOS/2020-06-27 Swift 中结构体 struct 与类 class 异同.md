@@ -58,6 +58,6 @@ Swift 中的结构体包含许多其他语言中类才有的特性：结构体�
 
 -----
 
-1. [Stanford CS193P 2020 Lecture 2](https://www.bilibili.com/video/BV1HK4y1t7KG?p=2
+1. [Stanford CS193P 2020 Lecture 2](https://www.bilibili.com/video/BV1HK4y1t7KG?p=2)
 2. [Choosing Between Structures and Classes](https://developer.apple.com/documentation/swift/choosing_between_structures_and_classes)
 
