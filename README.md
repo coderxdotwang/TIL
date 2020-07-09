@@ -2,7 +2,7 @@
 
 ## iOS
 
-2020-07-09：[离屏渲染 Offscreen Rendering](iOS/learned from blogs/2020-07-09 离屏渲染 Offscreen Rendering .md)
+2020-07-09：[离屏渲染 Offscreen Rendering](iOS/learned%20from%20blogs/2020-07-09%20离屏渲染%20Offscreen%20Rendering .md)
 
 2020-06-29：[栈（stack）和堆（heap）异同](iOS/2020-06-29%20栈（stack）和堆（heap）异同.md) 
 
