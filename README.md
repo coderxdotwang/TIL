@@ -1,6 +1,6 @@
 # today-i-learned
 
-## iOS
+# iOS
 
 2020-08-04：[捕获 App 异常崩溃信息](iOS/learned%20from%20frameworks/2020-08-04%20捕获%20App%20异常崩溃信息.md)
 
@@ -14,5 +14,5 @@
 
 ## Native-Web 交互
 
-- [响应 window.open(URL) 方法打开新 Web](iOS\Native-Web 交互\响应 window.open(URL) 打开新 Web.md)
+- [响应 window.open(URL) 方法打开新 Web](iOS/Native-Web%20交互/响应%20window.open(URL)%20打开新%20Web.md)
 
