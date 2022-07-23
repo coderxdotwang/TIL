@@ -12,7 +12,7 @@ func webView(
     if navigationAction.targetFrame == nil || navigationAction.targetFrame?.isMainFrame == false {
         // 加载请求或者创建新 Web 页面
         webView.load(navigationAction.request)
-	}
+    }
     return nil
 }
 ```
