@@ -12,9 +12,15 @@ A 传入 *target*（方法接收者）及 `SEL` / *selector*  到 B，在 B 中�
 
 编译器假定这个返回的对象指针可能不会被正确处理。
 
+## 解决方法
+
+使用 **Objc Runtime** 里的 [`methodForSelector:`](https://developer.apple.com/documentation/objectivec/nsobject/1418863-methodforselector/) 方法获取 *target* 中 *selector* 的实现 **`IMP`** 地址，然后通过方法调用让 *target* 执行 *selector*。
+
+`((void (*)(id, SEL))[_target methodForSelector:_selector])(_target, _selector)`
+
 ### 静态  Seletors
 
-通过 @selector 方式获取的 SEL 不会触发警告，因为编译期可以决定是否会 leak。
+通过 `@selector` 方式获取的 `SEL` 不会触发警告，因为编译期可以决定是否会 leak。
 
 `[target performSelector:@selector(someMethod)];`
 
